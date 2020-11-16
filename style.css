@@ -1,0 +1,86 @@
+:root {
+  --primary-text-color: #404040;
+  --underline: #fef8b5;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lilita One", cursive;
+  background-color: #70dcbf;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.underline-text {
+  line-height: 1;
+  display: inline;
+  background-image: linear-gradient(
+    transparent 50%,
+    var(--underline) 50%,
+    var(--underline) 95%,
+    transparent 95%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+}
+
+a.underline-text:hover {
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-size: 100% 100%;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .title h1 {
+  font-size: 54px;
+  line-height: 90px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-text-color);
+}
+
+.home .title h1:nth-child(2) {
+  color: #fef8b5;
+}
+
+.home .nav {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+.home .nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.home .nav ul li {
+  padding: 0 20px;
+}
+
+.home .nav ul a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-size: 22px;
+}
