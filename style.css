@@ -153,3 +153,25 @@ a.underline-text:hover {
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-size: 100% 100%;
 }
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works .work {
+  width: 33.33%;
+  /* background-color: red; */
+  height: 450px;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.works .work img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* .work:hover {
+  transform: scale(1.1);
+} */
