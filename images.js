@@ -1,16 +1,16 @@
 const images = [
-  {
-    url: "https://codepen.io/ruphaa/pen/QWExpBN",
-    img: "/images/droplet.png",
-  },
-  {
-    url: "https://codepen.io/ruphaa/pen/wvWzGvX",
-    img: "/images/kawaii-cooker.png",
-  },
-  {
-    url: "https://codepen.io/ruphaa/pen/zYBGzyr",
-    img: "/images/popsicle.png",
-  },
+  //   {
+  //     url: "https://codepen.io/ruphaa/pen/QWExpBN",
+  //     img: "/images/droplet.png",
+  //   },
+  //   {
+  //     url: "https://codepen.io/ruphaa/pen/wvWzGvX",
+  //     img: "/images/kawaii-cooker.png",
+  //   },
+  //   {
+  //     url: "https://codepen.io/ruphaa/pen/zYBGzyr",
+  //     img: "/images/popsicle.png",
+  //   },
   {
     url: "https://codepen.io/ruphaa/pen/wvWoxdb",
     img: "/images/polar-bear.png",
@@ -65,7 +65,7 @@ const images = [
   },
   {
     url: "https://codepen.io/ruphaa/pen/bQNVzW",
-    img: "/images/clock.png",
+    img: "/images/clock2.png",
   },
   {
     url: "https://codepen.io/ruphaa/pen/NObWyN",

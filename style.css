@@ -172,6 +172,10 @@ a.underline-text:hover {
   object-fit: fill;
 }
 
+.works .work .cp_embed_wrapper iframe {
+  height: 435px !important;
+}
+
 /* .work:hover {
   transform: scale(1.1);
 } */
